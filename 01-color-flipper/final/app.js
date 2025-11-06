@@ -1,6 +1,8 @@
 const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
+//This is done for my graded lab assignment for DevOps course
+let name = "Alok Raj";
 
 btn.addEventListener("click", function () {
   const randomNumber = getRandomNumber();
